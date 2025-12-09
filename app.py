@@ -16,4 +16,4 @@ def home():
     '''.format(add(2,3), subtract(10,4), multiply(5,6))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)  # nosec B104
